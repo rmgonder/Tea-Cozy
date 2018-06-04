@@ -1,10 +1,12 @@
 /* Universal Styles */
+
 body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 /* Header */
@@ -14,26 +16,55 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
-  height: 69px;
-  position: fixed;
-}
-
-nav span {
+  max-height: 69px;
+  padding: 10px;
   display: flex;
+  text-align: left;
+  z-index: 1;
 }
 
 .logo {
-  display: flex;
-  height: 50px;
-  width: auto;
-  padding-left: 10px;
+  display: inline-flex;
+  max-height: 50px;
 }
 
-.logo li {
+.menu {
+
+}
+
+.menu li {
   list-style: none;
   display: inline-flex;
 }
 
 a {
   color: white;
+}
+
+/* Mission */
+.Mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 700px;
+  width: 1200px;
+  display: inline-block;
+  position: relative;
+  overflow: auto;
+  clear: both;
+  padding: 30px;
+ }
+
+ .Mission h2 {
+   background-color: black;
+   width: 1200px;
+   height: 50px;
+   display: inline-block;
+}
+
+.Mission h4 {
+  background-color: black;
+  width: 1200px;
+  height: 50px;
+  display: inline-block;
 }
