@@ -1,10 +1,37 @@
-.logo {
+/* Universal Styles */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
   background-color: black;
-  border: 1px solid white;
+  opacity: 0.9;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  position: fixed;
 }
 
 nav span {
-  display: inline-block;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+}
+
+.logo li {
+  list-style: none;
+  display: inline-flex;
 }
 
 a {
