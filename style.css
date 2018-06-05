@@ -27,7 +27,7 @@ body {
   height: 50px;
   width: auto;
   display: inline-flex;
-  margin-right: 1200px;
+  margin-right: 1250px;
   margin-left: 10px;
 }
 
@@ -62,6 +62,7 @@ body {
   height: auto;
   background-color: black;
   text-align: center;
+  padding: 2px;
 }
 
 
@@ -128,4 +129,17 @@ img {
 .container2 {
   position: relative;
   display: inline-flex;
+}
+
+/* contact */
+
+.contact {
+  max-height: 200px;
+}
+
+/* footer */
+
+.footer {
+  text-align: left;
+  margin-left: 20px;
 }
